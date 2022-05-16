@@ -8,7 +8,7 @@ Onde VALOR é o novo valor da variável.
 */
 
 function addValor(){
-    novavariavel = 25;
+    novavariavel = 26;
     return(`O valor da variável agora é ${novavariavel}`);
 } // correto
 
@@ -17,4 +17,5 @@ addValor(); // correto
 
 
 // Qual o retorno da função? (Use comentários de bloco).
-/* O valor da variável agora é 25 */
+/* O valor da variável agora é 26 */
+// correto
