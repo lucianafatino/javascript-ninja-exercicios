@@ -15,7 +15,7 @@ function novaFunc(a, b, c){
 } // correto
 
 // Invoque a função criada acima, passando só dois números como argumento.
-novaFunc(2,3); // correto
+novaFunc(2,1); // correto
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 // Preencha todos os valores!  // correto
