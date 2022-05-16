@@ -1,0 +1,2 @@
+Pastas de exercícios oferecidos pelo professor Fernando Daciuk durante o seu curso de JavaScript, o JavaScript Ninja.
+Estes exercícios abordam desde assuntos básicos, como criação de variáveis e funções, até assuntos mais avançados.
