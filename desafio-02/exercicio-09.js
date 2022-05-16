@@ -25,7 +25,7 @@ function testes(a, b, c){
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
 
 testes(); // false
-testes(2); // 2
+testes(1); // 1
 testes(2,3); //5
 testes(2,3,5); //1
  // todos corretos
