@@ -10,4 +10,4 @@ var somaNumeros = 15 + 8;
 somaNumeros === myVar // correto
 
 // Digite o código que verifica se a variável `myvar` é menor ou igual à variável `soma`.
-myvar <= somaNumeros; // correto
+myVar <= somaNumeros; // correto
