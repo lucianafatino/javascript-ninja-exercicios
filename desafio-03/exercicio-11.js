@@ -103,7 +103,7 @@ inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
 
 pessoa.nomeCompleto(); // Olá! Meu nome é Luciana Fatino
-
+// correto
 
 /*
 Qual a idade da pessoa? (Use a instrução para responder e comentários
@@ -111,7 +111,16 @@ inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
 
 pessoa.mostrarIdade(); // 'Olá, eu tenho 25 anos!'
+// correto
 
+
+/*
+Qual o peso da pessoa? (Use a instrução para responder e comentários
+inline ao lado da instrução para mostrar qual foi a resposta retornada)
+*/
+
+pessoa.mostrarPeso(); // 'Eu peso 85Kg.'
+// correto
 
 /*
 Qual a altura da pessoa? (Use a instrução para responder e comentários
@@ -119,6 +128,7 @@ inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
 
 pessoa.mostrarAltura(); // 'Minha altura é 1.53m.'
+// correto
 
 /*
 Faça a `pessoa` fazer 3 aniversários.
