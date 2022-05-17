@@ -134,9 +134,9 @@ pessoa.mostrarAltura(); // 'Minha altura é 1.53m.'
 Faça a `pessoa` fazer 3 aniversários.
 */
 
-pessoa.fazerAniversario();
-pessoa.fazerAniversario();
-pessoa.fazerAniversario();
+pessoa.fazerAniversario(); // correto
+pessoa.fazerAniversario(); // correto
+pessoa.fazerAniversario(); // correto
 
 
 /*
@@ -146,8 +146,7 @@ retornada)
 */
 
 pessoa.mostrarIdade(); // 'Olá, eu tenho 28 anos!'
-//ou
-pessoa.idade; // 28
+// correto
 
 /*
 Agora, faça a `pessoa` caminhar alguns metros, invocando o método `andar` 3x,
