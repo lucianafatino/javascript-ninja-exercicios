@@ -45,3 +45,8 @@ Crie um método chamado `nomeCompleto`, que retorne a frase:
 Crie um método chamado `mostrarIdade`, que retorne a frase:
 - "Olá, eu tenho [IDADE] anos!"
 */
+
+/*
+Crie um método chamado `mostrarPeso`, que retorne a frase:
+- "Eu peso [PESO]Kg."
+*/
