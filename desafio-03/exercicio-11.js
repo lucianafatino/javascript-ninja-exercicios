@@ -70,3 +70,7 @@ inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
 
 
+/*
+Qual a altura da pessoa? (Use a instrução para responder e comentários
+inline ao lado da instrução para mostrar qual foi a resposta retornada)
+*/
