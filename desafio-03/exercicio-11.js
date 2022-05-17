@@ -20,7 +20,7 @@ var pessoa = {
     peso: 85,
     andando: false,
     caminhouQuantosMetros: 0
-}
+} // correto
 
 
 /*
