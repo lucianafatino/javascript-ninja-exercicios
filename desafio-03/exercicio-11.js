@@ -93,7 +93,7 @@ Crie um método chamado `mostrarAltura` que retorne a frase:
 
 pessoa.mostrarAltura = function(){
     return(`Minha altura é ${pessoa.altura}m.`)
-}
+} // correto
 
 
 /*
