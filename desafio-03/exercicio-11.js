@@ -47,32 +47,7 @@ booleano que representa "verdadeiro";
 pessoa.andar = function(a){
     pessoa.caminhouQuantosMetros += a;
     pessoa.andando = true
-}
-
-// ou
-
-pessoa.andar = function(a){
-    if(a > 0){
-        pessoa.caminhouQuantosMetros += a;
-        pessoa.andando = true;
-    } else {
-        pessoa.caminhouQuantosMetros += 0;
-        pessoa.andando = false;
-    }
-}
-
-// oooou
-pessoa.andar = function(a){
-    if(a > 0){
-        pessoa.caminhouQuantosMetros += a;
-        pessoa.andando = true;
-    } else if(a < 0){
-        return('Inválido');
-    } else {
-        pessoa.caminhouQuantosMetros += 0;
-        pessoa.andando = false;
-    }
-}
+} // correto
 
 /*
 Adicione um método ao objeto `pessoa` chamado `parar`, que irá modificar o valor
