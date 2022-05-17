@@ -50,3 +50,8 @@ Crie um método chamado `mostrarIdade`, que retorne a frase:
 Crie um método chamado `mostrarPeso`, que retorne a frase:
 - "Eu peso [PESO]Kg."
 */
+
+/*
+Crie um método chamado `mostrarAltura` que retorne a frase:
+- "Minha altura é [ALTURA]m."
+*/
