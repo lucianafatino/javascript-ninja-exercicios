@@ -90,3 +90,26 @@ retornada)
 Agora, faça a `pessoa` caminhar alguns metros, invocando o método `andar` 3x,
 com metragens diferentes passadas por parâmetro.
 */
+
+/*
+A pessoa ainda está andando? (Use a instrução para responder e comentários
+inline ao lado da instrução para mostrar qual foi a resposta retornada)
+*/
+
+
+/*
+Se a pessoa ainda está andando, faça-a parar.
+*/
+
+
+/*
+E agora: a pessoa ainda está andando? (Use uma instrução para responder e
+comentários inline ao lado da instrução para mostrar a resposta retornada)
+*/
+
+
+/*
+Quantos metros a pessoa andou? (Use uma instrução para responder e comentários
+inline ao lado da instrução para mostrar a resposta retornada)
+*/
+
