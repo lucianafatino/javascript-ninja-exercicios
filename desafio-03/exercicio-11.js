@@ -55,7 +55,7 @@ da propriedade `andando` para o valor booleano que representa "falso".
 */
 pessoa.parar = function(){
     pessoa.andando = false;
-}
+} // correto
 
 /*
 Crie um método chamado `nomeCompleto`, que retorne a frase:
