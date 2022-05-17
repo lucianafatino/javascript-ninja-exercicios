@@ -74,7 +74,7 @@ Crie um método chamado `mostrarIdade`, que retorne a frase:
 
 pessoa.mostrarIdade = function(){
     return(`Olá, eu tenho ${pessoa.idade} anos!`)
-}
+} // correto
 
 
 /*
