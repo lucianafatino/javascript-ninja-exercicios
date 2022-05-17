@@ -84,7 +84,7 @@ Crie um método chamado `mostrarPeso`, que retorne a frase:
 
 pessoa.mostrarPeso = function(){
     return(`Eu peso ${pessoa.peso}Kg.`)
-}
+} // correto
 
 /*
 Crie um método chamado `mostrarAltura` que retorne a frase:
