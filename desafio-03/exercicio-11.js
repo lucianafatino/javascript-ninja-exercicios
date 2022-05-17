@@ -221,7 +221,8 @@ pessoa.apresentacao = function(){
     }
     return(`Olá, eu sou ${sexo} ${pessoa.nome} ${pessoa.sobrenome}, tenho ${pessoa.idade} ${idadeAnos}, minha altura é de ${pessoa.altura}m, meu peso é ${pessoa.peso}kg e, só hoje, eu já caminhei ${pessoa.caminhouQuantosMetros} ${metrosCaminhados}!`);
 }
+// correto
 
 // Agora, apresente-se ;)
 
-pessoa.apresentacao();
+pessoa.apresentacao(); // correto
