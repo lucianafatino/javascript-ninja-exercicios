@@ -31,7 +31,7 @@ for chamado.
 
 pessoa.fazerAniversario = function(){
     pessoa.idade++;
-}
+} // correto
 
 /*
 Adicione um método ao objeto `pessoa` chamado `andar`, que terá as seguintes
