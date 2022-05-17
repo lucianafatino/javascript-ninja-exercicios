@@ -16,3 +16,15 @@ Adicione um método ao objeto `pessoa` chamado `fazerAniversario`. O método dev
 alterar o valor da propriedade `idade` dessa pessoa, somando `1` a cada vez que
 for chamado.
 */
+
+
+/*
+Adicione um método ao objeto `pessoa` chamado `andar`, que terá as seguintes
+características:
+- Esse método deve receber por parâmetro um valor que representará a quantidade
+de metros caminhados;
+- Ele deve alterar o valor da propriedade `caminhouQuantosMetros`, somando ao
+valor dessa propriedade a quantidade passada por parâmetro;
+- Ele deverá modificar o valor da propriedade `andando` para o valor
+booleano que representa "verdadeiro";
+*/
