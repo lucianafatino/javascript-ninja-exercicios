@@ -53,3 +53,47 @@ mostrar quantos assentos ainda podem ser ocupados, com a frase:
 - Se couber somente mais uma pessoa, mostrar a palavra "pessoa" no retorno
 citado acima, no lugar de "pessoas".
 */
+
+
+
+/*
+Agora vamos verificar algumas informações do carro. Para as respostas abaixo,
+utilize sempre o formato de invocação do método (ou chamada da propriedade),
+adicionando comentários _inline_ ao lado com o valor retornado, se o método
+retornar algum valor.
+
+Qual a cor atual do carro?
+*/
+
+
+// Mude a cor do carro para vermelho.
+
+
+// E agora, qual a cor do carro?
+
+
+// Mude a cor do carro para verde musgo.
+
+
+// E agora, qual a cor do carro?
+
+
+// Qual a marca e modelo do carro?
+
+
+// Adicione 2 pessoas no carro.
+
+
+// Adicione mais 4 pessoas no carro.
+
+
+// Faça o carro encher.
+
+
+// Tire 4 pessoas do carro.
+
+
+// Adicione 10 pessoas no carro.
+
+
+// Quantas pessoas temos no carro
