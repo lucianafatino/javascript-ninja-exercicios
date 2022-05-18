@@ -16,7 +16,25 @@ var isTruthy = function(a){
 
 // Invoque a função criada acima, passando todos os tipos de valores `falsy`.
 
+isTruthy(0);
+isTruthy(-0);
+isTruthy(undefined);
+isTruthy(null);
+isTruthy(false);
+isTruthy('');
+isTruthy("");
+isTruthy(NaN);
 
 /*
 Invoque a função criada acima passando como parâmetro 10 valores `truthy`.
 */
+isTruthy(1);
+isTruthy({});
+isTruthy([]);
+isTruthy(true);
+isTruthy("Ninja");
+isTruthy(-22);
+isTruthy(Infinity);
+isTruthy(-Infinity);
+isTruthy(1n);
+isTruthy(3.6);
