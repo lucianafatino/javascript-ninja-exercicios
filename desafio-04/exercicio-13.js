@@ -15,3 +15,17 @@ seguintes propriedades (os valores devem ser do tipo mostrado abaixo):
 Crie um método chamado `mudarCor` que mude a cor do carro conforme a cor
 passado por parâmetro.
 */
+
+/*
+Crie um método chamado `obterCor`, que retorne a cor do carro.
+*/
+
+
+/*
+Crie um método chamado `obterModelo` que retorne o modelo do carro.
+*/
+
+
+/*
+Crie um método chamado `obterMarca` que retorne a marca do carro.
+*/
