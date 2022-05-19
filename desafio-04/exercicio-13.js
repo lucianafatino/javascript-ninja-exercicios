@@ -82,8 +82,6 @@ mostrar quantos assentos ainda podem ser ocupados, com a frase:
 citado acima, no lugar de "pessoas".
 */
 
-
-
 /*
 Agora vamos verificar algumas informações do carro. Para as respostas abaixo,
 utilize sempre o formato de invocação do método (ou chamada da propriedade),
@@ -93,21 +91,27 @@ retornar algum valor.
 Qual a cor atual do carro?
 */
 
+carro.obterCor(); // 'Vermelho'
 
 // Mude a cor do carro para vermelho.
 
+carro.mudarCor('Azul');
 
 // E agora, qual a cor do carro?
 
+carro.obterCor();  // 'Azul'
 
 // Mude a cor do carro para verde musgo.
 
+carro.mudarCor('Verde Musgo');
 
 // E agora, qual a cor do carro?
 
+carro.obterCor();  // 'Verde Musgo'
 
 // Qual a marca e modelo do carro?
 
+carro.obterMarcaModelo(); // 'Esse carro é um Chevrolet Onix'
 
 // Adicione 2 pessoas no carro.
 
