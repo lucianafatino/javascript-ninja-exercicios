@@ -123,7 +123,7 @@ carro.obterCor();  // 'Vermelho'
 
 // Mude a cor do carro para verde musgo.
 
-carro.mudarCor('Verde Musgo');
+carro.mudarCor('Verde Musgo');  //correto
 
 // E agora, qual a cor do carro?
 
