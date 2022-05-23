@@ -11,6 +11,8 @@ seguintes propriedades (os valores devem ser do tipo mostrado abaixo):
 - `quantidadePessoas` - Number - zero por padrão
 */
 
+const { CaretCircleUp } = require("phosphor-react-native");
+
 var carro = {
     marca: 'Chevrolet',
     modelo: 'Onix',
@@ -82,6 +84,22 @@ mostrar quantos assentos ainda podem ser ocupados, com a frase:
 citado acima, no lugar de "pessoas".
 */
 
+carro.addPessoas = function(numPessoas){
+    var totalPessoas = carro.quantidadePessoas + numPessoas;
+    if(carro.quantidadePessoas === carro.assentos){
+        return(`O carro já está lotado`)
+    }
+
+    if(totalPessoas > carro.assentos){
+        var quantasPessoasCabem = carro.assentos - carro.quantidadePessoas;
+        var pluralOuSing = quantasPessoasCabem === 1 ? 'pessoa' : 'pessoas';
+        return(`Só cabem ${quantasPessoasCabem} ${pluralOuSing}!`);
+    }
+
+    carro.quantidadePessoas += numPessoas;
+    return(`Já temos ${totalPessoas} pessoas no carro!`);
+}
+
 /*
 Agora vamos verificar algumas informações do carro. Para as respostas abaixo,
 utilize sempre o formato de invocação do método (ou chamada da propriedade),
@@ -114,18 +132,21 @@ carro.obterCor();  // 'Verde Musgo'
 carro.obterMarcaModelo(); // 'Esse carro é um Chevrolet Onix'
 
 // Adicione 2 pessoas no carro.
-
+carro.addPessoas(2); // 'Já temos 2 pessoas no carro!'
 
 // Adicione mais 4 pessoas no carro.
-
+carro.addPessoas(4) // 'Só cabem mais 3 pessoas!'
 
 // Faça o carro encher.
-
+carro.addPessoas(3)
 
 // Tire 4 pessoas do carro.
-
+carro.quantidadePessoas -= 4;
 
 // Adicione 10 pessoas no carro.
-
+carro.addPessoas(10); // 'Só cabem mais 4 pessoas!'
 
 // Quantas pessoas temos no carro
+carro.addPessoas();
+//ou
+carro.quantidadePessoas;
