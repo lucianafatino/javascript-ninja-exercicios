@@ -65,7 +65,7 @@ Para retornar os valores de marca e modelo, utilize os métodos criados.
 
 carro.obterMarcaModelo = function(){
     return(`Esse carro é um ${carro.obterMarca()} ${carro.obterModelo()}`)
-}
+}; //correto
 
 /*
 Crie um método que irá adicionar pessoas no carro. Esse método terá as
