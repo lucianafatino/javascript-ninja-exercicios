@@ -6,12 +6,11 @@ para o contrário.
 */
 
 var isTruthy = function(a){
-    if(a == true){
-        return true
-    } else {
-        return false
+    if(a){
+        return true;
     }
-}
+    return false;
+}; // resolução do professor
 
 
 // Invoque a função criada acima, passando todos os tipos de valores `falsy`.
