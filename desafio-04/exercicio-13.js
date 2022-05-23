@@ -11,8 +11,6 @@ seguintes propriedades (os valores devem ser do tipo mostrado abaixo):
 - `quantidadePessoas` - Number - zero por padrão
 */
 
-const { CaretCircleUp } = require("phosphor-react-native");
-
 var carro = {
     marca: 'Chevrolet',
     modelo: 'Onix',
@@ -86,7 +84,7 @@ citado acima, no lugar de "pessoas".
 
 carro.addPessoas = function(numPessoas){
     var totalPessoas = carro.quantidadePessoas + numPessoas;
-    if(carro.quantidadePessoas === carro.assentos){
+    if(carro.quantidadePessoas === carro.assentos && totalPessoas >= carro.assentos){
         return(`O carro já está lotado`);
     }
 
@@ -98,7 +96,7 @@ carro.addPessoas = function(numPessoas){
 
     carro.quantidadePessoas += numPessoas;
     return(`Já temos ${totalPessoas} pessoas no carro!`);
-}
+};
 
 /*
 Agora vamos verificar algumas informações do carro. Para as respostas abaixo,
@@ -137,20 +135,25 @@ carro.obterMarcaModelo(); // 'Esse carro é um Chevrolet Onix'
 
 // Adicione 2 pessoas no carro.
 carro.addPessoas(2); // 'Já temos 2 pessoas no carro!'
+//correto
 
 // Adicione mais 4 pessoas no carro.
-carro.addPessoas(4) // 'Só cabem mais 3 pessoas!'
+carro.addPessoas(4); // 'Só cabem mais 3 pessoas!'
+//correto
 
 // Faça o carro encher.
-carro.addPessoas(3)
+carro.addPessoas(3);
+//correto
+
 
 // Tire 4 pessoas do carro.
-carro.quantidadePessoas -= 4;
+carro.addPessoas(-4); // 'Já temos 1 pessoas no carro!'
+//correto
 
 // Adicione 10 pessoas no carro.
 carro.addPessoas(10); // 'Só cabem mais 4 pessoas!'
+//correto
 
 // Quantas pessoas temos no carro
-carro.addPessoas();
-//ou
-carro.quantidadePessoas;
+carro.quantidadePessoas; // 1
+//correto
