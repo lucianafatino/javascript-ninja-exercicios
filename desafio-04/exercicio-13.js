@@ -54,7 +54,7 @@ Crie um método chamado `obterMarca` que retorne a marca do carro.
 
 carro.obterMarca = function(){
     return carro.marca;
-};
+}; //correto
 
 
 /*
