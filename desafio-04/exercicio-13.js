@@ -22,7 +22,7 @@ var carro = {
     quantasPortas: 4,
     assentos: 5,
     quantidadePessoas: 0
-};
+};  //correto
 
 /*
 Crie um método chamado `mudarCor` que mude a cor do carro conforme a cor
