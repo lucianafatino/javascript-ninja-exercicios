@@ -31,7 +31,7 @@ passado por parâmetro.
 
 carro.mudarCor = function(novaCor){
     carro.cor = novaCor;
-}
+};  //correto
 
 /*
 Crie um método chamado `obterCor`, que retorne a cor do carro.
