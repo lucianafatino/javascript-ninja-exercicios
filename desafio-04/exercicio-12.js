@@ -27,13 +27,13 @@ isTruthy(NaN); //correto
 /*
 Invoque a função criada acima passando como parâmetro 10 valores `truthy`.
 */
-isTruthy(1);
-isTruthy({});
-isTruthy([]);
-isTruthy(true);
-isTruthy("Ninja");
-isTruthy(-22);
-isTruthy(Infinity);
-isTruthy(-Infinity);
-isTruthy(1n);
-isTruthy(3.6);
+isTruthy(1); //correto
+isTruthy({}); //correto
+isTruthy([]); //correto
+isTruthy(true); //correto
+isTruthy("Ninja"); //correto
+isTruthy(-22); //correto
+isTruthy(Infinity); //correto
+isTruthy(function(){}); //correto
+isTruthy(1n); //correto
+isTruthy(3.6); //correto
