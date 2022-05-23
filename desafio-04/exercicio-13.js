@@ -18,7 +18,7 @@ var carro = {
     modelo: 'Onix',
     placa: 'EN265J',
     ano: 2020,
-    cor: 'Vermelho',
+    cor: 'Azul',
     quantasPortas: 4,
     assentos: 5,
     quantidadePessoas: 0
@@ -109,16 +109,16 @@ retornar algum valor.
 Qual a cor atual do carro?
 */
 
-carro.obterCor(); // 'Vermelho'
-
+carro.obterCor(); // 'Azul'
+ //correto
 
 // Mude a cor do carro para vermelho.
 
-carro.mudarCor('Azul');
+carro.mudarCor('Vermelho');
 
 // E agora, qual a cor do carro?
 
-carro.obterCor();  // 'Azul'
+carro.obterCor();  // 'Vermelho'
 
 // Mude a cor do carro para verde musgo.
 
