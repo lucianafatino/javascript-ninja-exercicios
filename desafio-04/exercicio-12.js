@@ -7,9 +7,9 @@ para o contrário.
 
 var isTruthy = function(a){
     if(a == true){
-        return true;
+        return true
     } else {
-        return false;
+        return false
     }
 }
 
