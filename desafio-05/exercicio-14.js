@@ -78,14 +78,15 @@ function book(bookName){
     };
     if(bookName === 'O Guia do Mochileiro das Galáxias'){
         return books.oGuiaDoMochileiro;
-    } else if(bookName === 'Atos Humanos'){
+    }
+    if(bookName === 'Atos Humanos'){
         return books.atosHumanos;
-    } else if(bookName === 'O Castelo Animado'){
+    }
+    if(bookName === 'O Castelo Animado'){
         return books.oCasteloAnimado;
-    } else if (bookName === undefined){
+    }
+    if (bookName === undefined){
         return books;
-    } else {
-        return('Desculpe! Livro indisponível.');
     }
 }
 
