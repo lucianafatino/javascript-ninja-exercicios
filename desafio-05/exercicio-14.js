@@ -58,6 +58,25 @@ propriedades:
 - Se o parâmetro não for passado, a função deve retornar o objeto com todos
 os livros.
 */
+function book(bookName){
+    var newObj = {
+        oGuiaDoMochileiro: {
+            quantidadeDePaginas: 156,
+            autor: 'Douglas Adams',
+            editora: 'Fora do Catálogo'
+        },
+        atosHumanos: {
+            quantidadeDePaginas: 192,
+            autor: 'Han Kang',
+            editora: 'Todavia'
+        },
+        oCasteloAnimado:{
+            quantidadeDePaginas: 368,
+            autor: 'Diana Wynne Jones',
+            editora: 'Galera'
+        }
+    };
+}
 
 /*
 Usando a função criada acima, imprima o objeto com todos os livros.
