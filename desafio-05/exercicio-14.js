@@ -41,3 +41,7 @@ propriedades:
 - Se o parâmetro não for passado, a função deve retornar o objeto com todos
 os livros.
 */
+
+/*
+Usando a função criada acima, imprima o objeto com todos os livros.
+*/
