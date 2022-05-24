@@ -26,3 +26,18 @@ Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
 Invoque a função criada acima, fazendo-a retornar todos os valores do último
 array criado.
 */
+
+/*
+Crie uma função chamada `book`, que recebe um parâmetro, que será o nome do
+livro. Dentro dessa função, declare uma variável que recebe um objeto com as
+seguintes características:
+- esse objeto irá receber 3 propriedades, que serão nomes de livros;
+- cada uma dessas propriedades será um novo objeto, que terá outras 3
+propriedades:
+    - `quantidadePaginas` - Number (quantidade de páginas)
+    - `autor` - String
+    - `editora` - String
+- A função deve retornar o objeto referente ao livro passado por parâmetro.
+- Se o parâmetro não for passado, a função deve retornar o objeto com todos
+os livros.
+*/
