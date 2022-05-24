@@ -18,3 +18,11 @@ no primeiro parâmetro. O índice usado para retornar o valor, deve ser o númer
 segundo parâmetro.
 */
 
+/*
+Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
+*/
+
+/*
+Invoque a função criada acima, fazendo-a retornar todos os valores do último
+array criado.
+*/
