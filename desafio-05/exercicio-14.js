@@ -59,7 +59,7 @@ propriedades:
 os livros.
 */
 function book(bookName){
-    var newObj = {
+    var books = {
         oGuiaDoMochileiro: {
             quantidadeDePaginas: 156,
             autor: 'Douglas Adams',
@@ -76,17 +76,31 @@ function book(bookName){
             editora: 'Galera'
         }
     };
+    if(bookName === 'O Guia do Mochileiro das Galáxias'){
+        return books.oGuiaDoMochileiro;
+    } else if(bookName === 'Atos Humanos'){
+        return books.atosHumanos;
+    } else if(bookName === 'O Castelo Animado'){
+        return books.oCasteloAnimado;
+    } else if (bookName === undefined){
+        return books;
+    } else {
+        return('Desculpe! Livro indisponível.');
+    }
 }
 
 /*
 Usando a função criada acima, imprima o objeto com todos os livros.
 */
 
+book();
+
 /*
 Ainda com a função acima, imprima a quantidade de páginas de um livro qualquer,
 usando a frase:
 "O livro [NOME_DO_LIVRO] tem [X] páginas!"
 */
+
 
 
 /*
