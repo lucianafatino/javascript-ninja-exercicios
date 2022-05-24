@@ -2,14 +2,21 @@
 Crie uma variável qualquer, que receba um array com alguns valores aleatórios
 - ao menos 5 - (fica por sua conta os valores do array).
 */
+var arr = ['luciana', 'feminino', 'brasileira', 25, 1.55];
 
 /*
 Crie uma função que receba um array como parâmetro, e retorne esse array.
 */
 
+function funcArr(arg){
+    return arg;
+}
+
 /*
 Imprima o segundo índice do array retornado pela função criada acima.
 */
+
+funcArr(arr)[2];
 
 /*
 Crie uma função que receba dois parâmetros: o primeiro, um array de valores; e o
@@ -18,14 +25,24 @@ no primeiro parâmetro. O índice usado para retornar o valor, deve ser o númer
 segundo parâmetro.
 */
 
+function myFunc(arg1, arg2){
+    return arg1[arg2];
+}
+
 /*
 Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
 */
+
+var novoArr = ['Luciana', 25, 1.55, true, undefined];
 
 /*
 Invoque a função criada acima, fazendo-a retornar todos os valores do último
 array criado.
 */
+
+function retornaTodos(arg){
+    return arg;
+}
 
 /*
 Crie uma função chamada `book`, que recebe um parâmetro, que será o nome do
