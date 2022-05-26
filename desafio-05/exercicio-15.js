@@ -7,7 +7,8 @@ segundo parâmetro.
 
 function myFunc(arg1, arg2){
     return arg1[arg2];
-} // correto
+} 
+// correto
 
 /*
 Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
