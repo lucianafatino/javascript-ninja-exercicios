@@ -33,3 +33,15 @@ Crie uma função chamada `showTeamPosition` com as seguintes características:
     "Não temos a informação do time que está nessa posição."
 */
 // ?
+
+/*
+Escolha 4 times do campeonato selecionado e mostre a posição dele, usando a
+função acima. Entre esses 4, adicione 1 que não esteja entre os 5 primeiros.
+*/
+// ?
+
+/*
+Mostre os números de 20 a 30 no console (inclusive o 30), usando a estrutura de
+repetição "while".
+*/
+// ?
