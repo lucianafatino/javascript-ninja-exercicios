@@ -60,5 +60,5 @@ a frase:
 "O livro [NOME_DO_LIVRO] foi publicado pela editora [NOME_DA_EDITORA]."
 */
 
-console.log(`O livro O Castelo Animado foi publicado pela editora ${books('O Castelo Animado').editora}!`)
+console.log(`O livro O Castelo Animado foi publicado pela editora ${books('O Castelo Animado').editora}!`)  // correto
 
