@@ -60,51 +60,39 @@ propriedades:
 - Se o parâmetro não for passado, a função deve retornar o objeto com todos
 os livros.
 */
-function book(bookName){
-    var books = {
-        oGuiaDoMochileiro: {
+function books(bookName){
+    var allBooks = {
+        'O Guia do Mochileiro das Galáxias': {
             quantidadeDePaginas: 156,
             autor: 'Douglas Adams',
             editora: 'Fora do Catálogo'
         },
-        atosHumanos: {
+        'Atos Humanos': {
             quantidadeDePaginas: 192,
             autor: 'Han Kang',
             editora: 'Todavia'
         },
-        oCasteloAnimado:{
+        'O Castelo Animado':{
             quantidadeDePaginas: 368,
             autor: 'Diana Wynne Jones',
             editora: 'Galera'
         }
     };
-    if(bookName === 'O Guia do Mochileiro das Galáxias'){
-        return books.oGuiaDoMochileiro;
-    }
-    if(bookName === 'Atos Humanos'){
-        return books.atosHumanos;
-    }
-    if(bookName === 'O Castelo Animado'){
-        return books.oCasteloAnimado;
-    }
-    if (bookName === undefined){
-        return books;
-    }
+    return !bookName ? allBooks : allBooks[ bookName ];
 }
 
 /*
 Usando a função criada acima, imprima o objeto com todos os livros.
 */
 
-book();
+console.log(books());
 
 /*
 Ainda com a função acima, imprima a quantidade de páginas de um livro qualquer,
 usando a frase:
 "O livro [NOME_DO_LIVRO] tem [X] páginas!"
 */
-
-
+console.log(`O livro O Castelo Animado tem ${books('O Castelo Animado').quantidadeDePaginas} páginas!`)
 
 /*
 Ainda com a função acima, imprima o nome do autor de um livro qualquer, usando
@@ -112,9 +100,13 @@ a frase:
 "O autor do livro [NOME_DO_LIVRO] é [AUTOR]."
 */
 
+console.log(`O(a) autor(a) do livro O Castelo Animado é  ${books('O Castelo Animado').autor}.`)
+
 /*
 Ainda com a função acima, imprima o nome da editora de um livro qualquer, usando
 a frase:
 "O livro [NOME_DO_LIVRO] foi publicado pela editora [NOME_DA_EDITORA]."
 */
+
+console.log(`O livro O Castelo Animado foi publicado pela editora ${books('O Castelo Animado').editora}.`)
 
