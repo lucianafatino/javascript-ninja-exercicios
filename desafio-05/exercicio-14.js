@@ -16,4 +16,4 @@ function funcArr(arg){
 Imprima o segundo índice do array retornado pela função criada acima.
 */
 
-funcArr(arr)[2];
+console.log(funcArr(arr)[1]);  // correto
