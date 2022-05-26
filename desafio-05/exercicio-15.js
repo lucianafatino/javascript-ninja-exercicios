@@ -14,7 +14,7 @@ function myFunc(arg1, arg2){
 Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
 */
 
-var novoArr = ['Luciana', 25, 1.55, true, undefined];
+var novoArr = ['Luciana', 25, 1.55, true, undefined]; // correto
 
 
 /*
