@@ -37,7 +37,7 @@ function books(bookName){
 Usando a função criada acima, imprima o objeto com todos os livros.
 */
 
-console.log(books());
+console.log(books());  // correto
 
 /*
 Ainda com a função acima, imprima a quantidade de páginas de um livro qualquer,
