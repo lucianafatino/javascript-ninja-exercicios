@@ -7,4 +7,22 @@ segundo parâmetro.
 
 function myFunc(arg1, arg2){
     return arg1[arg2];
-}
+} // correto
+
+/*
+Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
+*/
+
+var novoArr = ['Luciana', 25, 1.55, true, undefined];
+
+
+/*
+Invoque a função criada acima, fazendo-a retornar todos os valores do último
+array criado.
+*/
+console.log(myFunc(novoArr, 0));
+console.log(myFunc(novoArr, 1));
+console.log(myFunc(novoArr, 2));
+console.log(myFunc(novoArr, 3));
+console.log(myFunc(novoArr, 4));
+
