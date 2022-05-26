@@ -52,7 +52,7 @@ a frase:
 "O autor do livro [NOME_DO_LIVRO] é [AUTOR]."
 */
 
-console.log(`O(a) autor(a) do livro O Castelo Animado é  ${books('O Castelo Animado').autor}.`)
+console.log(`O(a) autor(a) do livro O Castelo Animado é  ${books('O Castelo Animado').autor}.`);  // correto
 
 /*
 Ainda com a função acima, imprima o nome da editora de um livro qualquer, usando
