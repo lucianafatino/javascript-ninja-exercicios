@@ -44,7 +44,7 @@ Ainda com a função acima, imprima a quantidade de páginas de um livro qualque
 usando a frase:
 "O livro [NOME_DO_LIVRO] tem [X] páginas!"
 */
-console.log(`O livro O Castelo Animado tem ${books('O Castelo Animado').quantidadeDePaginas} páginas!`)
+console.log(`O livro O Castelo Animado tem ${books('O Castelo Animado').quantidadeDePaginas} páginas!`);  // correto
 
 /*
 Ainda com a função acima, imprima o nome do autor de um livro qualquer, usando
