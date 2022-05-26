@@ -31,7 +31,7 @@ function books(bookName){
         }
     };
     return !bookName ? allBooks : allBooks[ bookName ];
-}
+} // correto
 
 /*
 Usando a função criada acima, imprima o objeto com todos os livros.
