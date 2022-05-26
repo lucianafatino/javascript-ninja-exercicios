@@ -14,8 +14,6 @@ function funcArr(arg){
 
 /*
 Imprima o segundo índice do array retornado pela função criada acima.
-
-
 */
 
 funcArr(arr)[2];
