@@ -44,7 +44,9 @@ Ainda com a função acima, imprima a quantidade de páginas de um livro qualque
 usando a frase:
 "O livro [NOME_DO_LIVRO] tem [X] páginas!"
 */
-console.log(`O livro O Castelo Animado tem ${books('O Castelo Animado').quantidadeDePaginas} páginas!`);  // correto
+
+var bookName = 'O Castelo Animado';
+console.log(`O livro ${bookName} tem ${books( bookNAme ).quantidadeDePaginas} páginas!`);  // correção pelo prof
 
 /*
 Ainda com a função acima, imprima o nome do autor de um livro qualquer, usando
@@ -52,7 +54,7 @@ a frase:
 "O autor do livro [NOME_DO_LIVRO] é [AUTOR]."
 */
 
-console.log(`O(a) autor(a) do livro O Castelo Animado é  ${books('O Castelo Animado').autor}.`);  // correto
+console.log(`O(a) autor(a) do livro ${bookName} é  ${books('O Castelo Animado').autor}.`);  // correto
 
 /*
 Ainda com a função acima, imprima o nome da editora de um livro qualquer, usando
@@ -60,5 +62,5 @@ a frase:
 "O livro [NOME_DO_LIVRO] foi publicado pela editora [NOME_DA_EDITORA]."
 */
 
-console.log(`O livro O Castelo Animado foi publicado pela editora ${books('O Castelo Animado').editora}!`)  // correto
+console.log(`O livro ${bookName} foi publicado pela editora ${books('O Castelo Animado').editora}!`)  // correto
 
