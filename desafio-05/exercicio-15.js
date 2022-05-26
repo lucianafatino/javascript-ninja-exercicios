@@ -21,9 +21,9 @@ var novoArr = ['Luciana', 25, 1.55, true, undefined]; // correto
 Invoque a função criada acima, fazendo-a retornar todos os valores do último
 array criado.
 */
-console.log(myFunc(novoArr, 0));
-console.log(myFunc(novoArr, 1));
-console.log(myFunc(novoArr, 2));
-console.log(myFunc(novoArr, 3));
-console.log(myFunc(novoArr, 4));
+console.log(myFunc(novoArr, 0));  // correto
+console.log(myFunc(novoArr, 1)); // correto
+console.log(myFunc(novoArr, 2)); // correto
+console.log(myFunc(novoArr, 3)); // correto
+console.log(myFunc(novoArr, 4)); // correto
 
