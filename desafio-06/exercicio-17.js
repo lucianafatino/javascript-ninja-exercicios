@@ -45,3 +45,17 @@ Mostre os números de 20 a 30 no console (inclusive o 30), usando a estrutura de
 repetição "while".
 */
 // ?
+
+/*
+Crie uma função chamada `convertToHex`, com as seguintes características:
+    - A função recebe uma cor por parâmetro, do tipo string. Exemplo: "red";
+    - Escolha 5 cores que serão convertidas do nome da cor para o seu
+    equivalente hexadecimal (pode ser qualquer tom);
+    - Usando a estrutura switch, verifique se a cor passada por parâmetro é
+    algum hexa escolhido. Se for, retorne a frase:
+    "O hexadecimal para a cor [COR] é [HEXADECIMAL].";
+    - Se a cor passada por parâmetro não estiver entre as selecionadas, mostre
+    a frase:
+    "Não temos o equivalente hexadecimal para [COR]."
+*/
+// ?
