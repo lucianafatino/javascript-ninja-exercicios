@@ -6,6 +6,8 @@ e imprima o nome desse campeonato no console.
 */
 // ?
 
+var championship = 'Campeonato Paulista';
+
 /*
 Declare uma variável chamada `teams`, que receberá um array com 5 elementos.
 Os elementos serão nomes de times do campeonato escolhido, e os nomes devem
@@ -13,6 +15,8 @@ estar na ordem em que eles aparecem na tabela no momento da solução desse
 desafio.
 */
 // ?
+
+var teams = ['Corinthians', 'Palmeiras','São Paulo', 'Santos', 'Ponte Preta'];
 
 console.log( 'Times que estão participando do campeonato:', teams );
 
@@ -34,17 +38,49 @@ Crie uma função chamada `showTeamPosition` com as seguintes características:
 */
 // ?
 
+function showTeamPosition(posição){
+    switch(posição <= 5){
+        case posição === 1:
+            console.log(`O time que está em 1º lugar é o ${teams[0]}.`);
+            break;
+        case posição === 2:
+            console.log(`O time que está em 2º lugar é o ${teams[1]}.`);
+            break;
+        case posição === 3:
+            console.log(`O time que está em 3º lugar é o ${teams[2]}.`);
+            break;
+        case posição === 4:
+            console.log(`O time que está em 4º lugar é o ${teams[3]}.`);
+            break; 
+        case posição === 5:
+            console.log(`O time que está em 5º lugar é o ${teams[4]}.`);
+            break;
+        default:
+            console.log(`Não temos a informação do time que está nessa posição.`);
+    }       
+}
+
 /*
 Escolha 4 times do campeonato selecionado e mostre a posição dele, usando a
 função acima. Entre esses 4, adicione 1 que não esteja entre os 5 primeiros.
 */
 // ?
 
+showTeamPosition(1); // 'O time que está em 1º lugar é o Corinthians'
+showTeamPosition(3); // 'O time que está em 3º lugar é o São Paulo'
+showTeamPosition(4); // 'O time que está em 4º lugar é o Santos'
+showTeamPosition(6); // 'Não temos a informação do time que está nessa posição.'
+
 /*
 Mostre os números de 20 a 30 no console (inclusive o 30), usando a estrutura de
 repetição "while".
 */
 // ?
+
+var counter = 20;
+while(counter < 31){
+    console.log(counter);
+}
 
 /*
 Crie uma função chamada `convertToHex`, com as seguintes características:

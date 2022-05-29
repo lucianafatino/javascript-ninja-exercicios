@@ -46,7 +46,7 @@ usando a frase:
 */
 
 var bookName = 'O Castelo Animado';
-console.log(`O livro ${bookName} tem ${books( bookNAme ).quantidadeDePaginas} páginas!`);  // correção pelo prof
+console.log(`O livro ${bookName} tem ${books( bookName ).quantidadeDePaginas} páginas!`);  // correção pelo prof
 
 /*
 Ainda com a função acima, imprima o nome do autor de um livro qualquer, usando
