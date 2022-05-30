@@ -79,7 +79,7 @@ repetição "while".
 
 var counter = 20;
 while(counter < 31){
-    console.log(counter);
+    console.log(counter++);
 }
 
 /*
