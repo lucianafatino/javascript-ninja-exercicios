@@ -96,6 +96,35 @@ Crie uma função chamada `convertToHex`, com as seguintes características:
 */
 // ?
 
+function convertToHex(cor){
+    var cores = {
+        red: 'FF0000', 
+        blue: '0000FF', 
+        green: '00FF00', 
+        yellow: 'FFFF00', 
+        orange: 'FF820E'
+    }
+    switch(cor){
+        case 'red':
+            console.log(`O hexadecimal para a cor Vermelha é ${cores.red}.`);
+            break;
+        case 'blue':
+            console.log(`O hexadecimal para a cor Azul é ${cores.blue}.`);
+            break;
+        case 'green':
+            console.log(`O hexadecimal para a cor Verde é ${cores.green}.`);
+            break;
+        case 'yellow':
+            console.log(`O hexadecimal para a cor Amarelo é ${cores.yellow}.`);
+            break;
+        case 'orange':
+            console.log(`O hexadecimal para a cor Laranja é ${cores.orange}.`);
+            break;
+        default:
+            console.log(`Não temos o equivalente hexadecimal para ${cor};`);
+    }
+}
+
 /*
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
 */
