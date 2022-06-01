@@ -7,7 +7,7 @@ e imprima o nome desse campeonato no console.
 // ?
 
 var championship = 'Campeonato Paulista';
-
+console.log(championship);
 /*
 Declare uma variável chamada `teams`, que receberá um array com 5 elementos.
 Os elementos serão nomes de times do campeonato escolhido, e os nomes devem
