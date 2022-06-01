@@ -65,9 +65,9 @@ repetição "while".
 // ?
 
 var counter = 20;
-while(counter <= 30){
+while(counter < 31){
     console.log(counter++);
-} // correto
+}
 
 /*
 Crie uma função chamada `convertToHex`, com as seguintes características:
@@ -84,27 +84,30 @@ Crie uma função chamada `convertToHex`, com as seguintes características:
 // ?
 
 function convertToHex(cor){
+    var hexa;
     switch(cor){
         case 'red':
-            console.log(`O hexadecimal para a cor ${cor} é #FF0000.`);
+            hexa = '#FF0000';
             break;
         case 'blue':
-            console.log(`O hexadecimal para a cor ${cor} é #0000FF.`);
+            hexa = '#0000FF';
             break;
         case 'green':
-            console.log(`O hexadecimal para a cor ${cor} é #00FF00.`);
+            hexa = '#00FF00';
             break;
         case 'yellow':
-            console.log(`O hexadecimal para a cor ${cor} é #FFFF00.`);
+            hexa = '#FFFF00';
             break;
-        case 'orange':
-            console.log(`O hexadecimal para a cor ${cor} é #FF820E.`);
+        case 'orange':;
+            hexa = '#FF820E';
             break;
         default:
-            console.log(`Não temos o equivalente Hexadecimal para ${cor};`);
+            console.log(`Não temos o equivalente hexadecimal para ${cor};`);
     }
+    console.log(`O hexadecimal para a ${cor} é ${hexa}.`);
 }
-// tudo correto
+
+// correto
 
 /*
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
