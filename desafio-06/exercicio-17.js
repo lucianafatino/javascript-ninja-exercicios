@@ -65,9 +65,9 @@ repetição "while".
 // ?
 
 var counter = 20;
-while(counter < 31){
+while(counter <= 30){
     console.log(counter++);
-}
+} // correto
 
 /*
 Crie uma função chamada `convertToHex`, com as seguintes características:
