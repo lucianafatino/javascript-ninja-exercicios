@@ -104,6 +104,7 @@ function convertToHex(cor){
             console.log(`Não temos o equivalente Hexadecimal para ${cor};`);
     }
 }
+// tudo correto
 
 /*
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
@@ -118,3 +119,5 @@ convertToHex('ciano'); // Não temos o equivalente hexadecimal para ciano;
 convertToHex('black'); // Não temos o equivalente hexadecimal para black;
 convertToHex('green'); // O hexadecimal para a cor Verde é 00FF00.
 convertToHex('orange'); // O hexadecimal para a cor Laranja é ff820e.
+
+// correto
