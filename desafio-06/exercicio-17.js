@@ -84,31 +84,24 @@ Crie uma função chamada `convertToHex`, com as seguintes características:
 // ?
 
 function convertToHex(cor){
-    var cores = {
-        red: 'FF0000', 
-        blue: '0000FF', 
-        green: '00FF00', 
-        yellow: 'FFFF00', 
-        orange: 'FF820E'
-    }
     switch(cor){
         case 'red':
-            console.log(`O hexadecimal para a cor Vermelha é ${cores.red}.`);
+            console.log(`O hexadecimal para a cor ${cor} é #FF0000.`);
             break;
         case 'blue':
-            console.log(`O hexadecimal para a cor Azul é ${cores.blue}.`);
+            console.log(`O hexadecimal para a cor ${cor} é #0000FF.`);
             break;
         case 'green':
-            console.log(`O hexadecimal para a cor Verde é ${cores.green}.`);
+            console.log(`O hexadecimal para a cor ${cor} é #00FF00.`);
             break;
         case 'yellow':
-            console.log(`O hexadecimal para a cor Amarelo é ${cores.yellow}.`);
+            console.log(`O hexadecimal para a cor ${cor} é #FFFF00.`);
             break;
         case 'orange':
-            console.log(`O hexadecimal para a cor Laranja é ${cores.orange}.`);
+            console.log(`O hexadecimal para a cor ${cor} é #FF820E.`);
             break;
         default:
-            console.log(`Não temos o equivalente hexadecimal para ${cor};`);
+            console.log(`Não temos o equivalente Hexadecimal para ${cor};`);
     }
 }
 
