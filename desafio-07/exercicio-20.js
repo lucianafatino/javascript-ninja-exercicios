@@ -3,7 +3,7 @@ Crie um array com 5 items (tipos variados).
 */
 // ?
 
-var newArr = ['Luciana', 25, true, function(){}, null];
+var newArr = ['Mari', 25, true, function(){}, null];
 
 /*
 Crie uma função chamada `addItem`, que irá adicionar itens no array criado.
@@ -22,7 +22,7 @@ itens de tipos diferentes, mostrando o resultado no console.
 */
 // ?
 
-console.log(newArr.push([undefined, -90, {bola: 'azul'}]));
+console.log(newArr.push([undefined, -90, 'Luciana']));
 
 /*
 Mostre no console o segundo elemento desse último array, criado acima, com a
@@ -31,11 +31,15 @@ frase:
 */
 // ?
 
+console.log(`O segundo elemento do segundo array é ${newArr[5][2]}.`)
+
 /*
 Mostre no console quantos itens tem o primeiro array criado, com a frase:
 "O primeiro array tem [QUANTIDADE DE ITENS] itens."
 */
 // ?
+
+console.log(`O primeiro array tem ${newArr.length} itens."`)
 
 /*
 Agora mostre no console quantos itens tem o segundo array criado, com a frase:
@@ -43,3 +47,4 @@ Agora mostre no console quantos itens tem o segundo array criado, com a frase:
 */
 // ?
 
+console.log(`O segundo array tem ${newArr[5].length} itens.`)
