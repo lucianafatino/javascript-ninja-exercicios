@@ -3,12 +3,14 @@ Crie um array com 5 items (tipos variados).
 */
 // ?
 
+var newArr = ['Luciana', 25, true, function(){}, null];
 
 /*
 Crie uma função chamada `addItem`, que irá adicionar itens no array criado.
 A função deverá retornar o array atualizado.
 */
 // ?
+
 
 
 /*
