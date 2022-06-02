@@ -22,6 +22,8 @@ itens de tipos diferentes, mostrando o resultado no console.
 */
 // ?
 
+console.log(newArr.push([undefined, -90, {bola: 'azul'}]));
+
 /*
 Mostre no console o segundo elemento desse último array, criado acima, com a
 frase:
