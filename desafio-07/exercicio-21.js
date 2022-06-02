@@ -15,12 +15,11 @@ Na mesma ideia do exercício acima: mostre agora os números ímpares.
 */
 console.log( 'Números ímpares entre 10 e 20:' );
 // ?
-var numImpar = 10
+var numImpar = 10;
 while(numImpar <= 20){
     numImpar % 2  === 1 ? console.log(numImpar) : '';
     numImpar++;
 }
-
 
 /*
 Repita os mesmos exercícios feitos acima, mas agora usando o loop "for".
@@ -30,6 +29,13 @@ Só vamos mudar o range:
 */
 console.log( 'Números pares entre 100 e 120:' );
 // ?
+for(var numP = 100; numP <= 120; numP++){
+    numP % 2 === 0 ? console.log(numP) : '';
+}
 
 console.log( 'Números ímpares entre 111 e 125:' );
 // ?
+
+for(var numI = 101; numI <= 125; numI++){
+    numI % 2 === 1 ? console.log(numI) : '';
+}
