@@ -11,6 +11,7 @@ function addItem(item){
     newArr.push(item);
     return newArr;
 }
+// correto
 
 /*
 Adicione um novo array ao array criado no início do desafio, com ao menos 3
