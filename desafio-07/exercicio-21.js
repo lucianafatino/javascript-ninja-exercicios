@@ -8,7 +8,7 @@ var num = 10;
 while(num <= 20){
     num % 2  === 0 ? console.log(num) : '';
     num++;
-}
+}  // correto
 
 /*
 Na mesma ideia do exercício acima: mostre agora os números ímpares.
