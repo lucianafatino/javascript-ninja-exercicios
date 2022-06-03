@@ -18,6 +18,7 @@ Adicione um novo array ao array criado no início do desafio, com ao menos 3
 itens de tipos diferentes, mostrando o resultado no console.
 */
 console.log(newArr([undefined, -90, 'Luciana'])); // correto
+
 /*
 Mostre no console o segundo elemento desse último array, criado acima, com a
 frase:
@@ -25,7 +26,7 @@ frase:
 */
 // ?
 
-console.log(`O segundo elemento do segundo array é ${newArr[5][2]}.`)
+console.log(`O segundo elemento do segundo array é ${newArr[5][1]}.`) // correto
 
 /*
 Mostre no console quantos itens tem o primeiro array criado, com a frase:
