@@ -24,22 +24,16 @@ Mostre no console o segundo elemento desse último array, criado acima, com a
 frase:
 "O segundo elemento do segundo array é [ELEMENTO]."
 */
-// ?
-
 console.log(`O segundo elemento do segundo array é ${newArr[5][1]}.`) // correto
 
 /*
 Mostre no console quantos itens tem o primeiro array criado, com a frase:
 "O primeiro array tem [QUANTIDADE DE ITENS] itens."
 */
-// ?
-
-console.log(`O primeiro array tem ${newArr.length} itens."`)
+console.log(`O primeiro array tem ${newArr.length} itens."`); // correto
 
 /*
 Agora mostre no console quantos itens tem o segundo array criado, com a frase:
 "O segundo array tem [QUANTIDADE DE ITENS] itens."
 */
-// ?
-
-console.log(`O segundo array tem ${newArr[5].length} itens.`)
+console.log(`O segundo array tem ${newArr[5].length} itens.`); // correto
