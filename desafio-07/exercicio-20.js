@@ -1,16 +1,12 @@
 /*
 Crie um array com 5 items (tipos variados).
 */
-// ?
-
-var newArr = ['Mari', 25, true, function(){}, null];
+var newArr = ['Mari', 25, true, function(){}, null]; // correto
 
 /*
 Crie uma função chamada `addItem`, que irá adicionar itens no array criado.
 A função deverá retornar o array atualizado.
 */
-// ?
-
 function addItem(item){
     newArr.push(item);
     return newArr;
