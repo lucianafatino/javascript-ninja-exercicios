@@ -11,3 +11,9 @@ o resultado no console, com a frase:
 "A soma de [VALOR 1] e [VALOR2] é igual a [RESULTADO]."
 */
 // ?
+
+/*
+Mostre no console o nome da função criada acima, com a frase:
+"O nome da função que faz a soma é [NOME DA FUNÇÃO]."
+*/
+// ?
