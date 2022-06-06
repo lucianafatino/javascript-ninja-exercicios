@@ -11,11 +11,17 @@ vai efetuar. Será uma string com os valores `+`, `-`, `*`, `/` ou `%`;
   "Operação inválida."
 */
 
+function calculator(operation){
+    return function contas(num1, num2){
+        
+    }
+}
+
 /*
 Declare uma variável chamada `sum`, que receberá a função acima, passando como
 parâmetro o operador de soma.
 */
-// ?
+var sum = calculator('+')(2,3)
 
 /*
 Agora `sum` é uma função. Mostre no console a soma de dois números, usando ela.
