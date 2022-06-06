@@ -4,3 +4,10 @@ Declare uma variável chamada `sum` e atribua a ela uma função chamada
 desses parâmetros.
 */
 // ?
+
+/*
+Invoque a função criada acima, passando dois números que serão somados, e mostre
+o resultado no console, com a frase:
+"A soma de [VALOR 1] e [VALOR2] é igual a [RESULTADO]."
+*/
+// ?
