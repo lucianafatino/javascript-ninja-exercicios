@@ -12,7 +12,7 @@ Invoque a função criada acima, passando dois números que serão somados, e mo
 o resultado no console, com a frase:
 "A soma de [VALOR 1] e [VALOR2] é igual a [RESULTADO]."
 */
-// ?
+console.log(`A soma entre 2 e 3 é igual a ${sum(2,3)}`)
 
 /*
 Mostre no console o nome da função criada acima, com a frase:
