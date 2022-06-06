@@ -9,7 +9,7 @@ function showName(){
 /*
 Declare uma variável chamada `varShowName` que recebe a função criada acima.
 */
-var varShowName = showName();
+var varShowName = showName()
 
 /*
 Usando a variável criada acima, mostre no console o nome e o retorno da função
