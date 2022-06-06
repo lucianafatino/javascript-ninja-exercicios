@@ -22,3 +22,16 @@ parâmetro o operador de soma.
 Agora `sum` é uma função. Mostre no console a soma de dois números, usando ela.
 */
 // ?
+
+/*
+Agora, declare algumas variáveis com os nomes `subtraction`, `multiplication`,
+`division` e `mod`, e atribua a elas a função `calculator`, passando o operador
+correto por parâmetro para cada uma delas.
+*/
+// ?
+
+/*
+Faça uma operação com cada uma das funções criadas acima, mostrando o resultado
+no console.
+*/
+// ?
