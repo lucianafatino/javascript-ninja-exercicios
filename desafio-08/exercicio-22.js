@@ -22,4 +22,4 @@ Mostre no console o nome da função criada acima, com a frase:
 */
 // ?
 
-console.log(`O nome da função que faz a soma é ${sum.name}`);
+console.log(`O nome da função que faz a soma é ${sum.name}`); // correto
