@@ -3,8 +3,8 @@ Crie uma função literal chamada `showName`. Essa função deve retornar o
 seu nome.
 */
 function showName(){
-    return(`Luciana Fatino Venâncio`);
-}
+    return 'Luciana Fatino Venâncio';
+} // correto
 
 /*
 Declare uma variável chamada `varShowName` que recebe a função criada acima.
