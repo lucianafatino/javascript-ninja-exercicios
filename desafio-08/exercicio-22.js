@@ -5,7 +5,7 @@ desses parâmetros.
 */
 var sum = function calculateSum(NUMERO1, NUMERO2){
     return NUMERO1 + NUMERO2;
-}
+} // correto
 
 /*
 Invoque a função criada acima, passando dois números que serão somados, e mostre
