@@ -10,28 +10,59 @@ vai efetuar. Será uma string com os valores `+`, `-`, `*`, `/` ou `%`;
   - Se o operador não for válido, retornar a frase:
   "Operação inválida."
 */
-
-
+function calculator(operator){
+  return function(n1, n2){
+    var result;
+    switch(operator){
+      case '+':
+        result = n1 + n2;
+        break;
+      case '-':
+        result = n1 - n2;
+        break;
+      case '*':
+        result = n1 * n2;
+        break;
+      case '/':
+        result = n1 / n2;
+        break;
+      case '%':
+        result = n1 % n2;
+        break;
+      default:
+        return `Operação inválida.`;
+    }
+    return `Resultado da operação: ${n1} ${operator} ${n2} = ${result}`;
+  }
+}
+// correto
 /*
 Declare uma variável chamada `sum`, que receberá a função acima, passando como
 parâmetro o operador de soma.
 */
-
+var sum = calculator('+'); // correto
 
 /*
 Agora `sum` é uma função. Mostre no console a soma de dois números, usando ela.
 */
-// ?
+console.log(sum(2,2)); // Resultado da operação: 2 + 2 = 4
+// correto
 
 /*
 Agora, declare algumas variáveis com os nomes `subtraction`, `multiplication`,
 `division` e `mod`, e atribua a elas a função `calculator`, passando o operador
 correto por parâmetro para cada uma delas.
 */
-// ?
+var subtraction = calculator('-'); // correto
+var multiplication = calculator('*'); // correto
+var division = calculator('/'); // correto
+var mod = calculator('%'); // correto
 
 /*
 Faça uma operação com cada uma das funções criadas acima, mostrando o resultado
 no console.
 */
-// ?
+console.log(subtraction(4, 2)); // Resultado da operação: 4 - 2 = 2
+console.log(multiplication(4, 2)); // Resultado da operação: 4 * 2 = 8
+console.log(division(4, 2)); // Resultado da operação: 4 / 2 = 2
+console.log(mod(4, 2)); // Resultado da operação: 4 % 2 = 0
