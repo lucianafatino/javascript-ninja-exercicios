@@ -63,6 +63,10 @@ Faça uma operação com cada uma das funções criadas acima, mostrando o resul
 no console.
 */
 console.log(subtraction(4, 2)); // Resultado da operação: 4 - 2 = 2
+// correto
 console.log(multiplication(4, 2)); // Resultado da operação: 4 * 2 = 8
+// correto
 console.log(division(4, 2)); // Resultado da operação: 4 / 2 = 2
+// correto
 console.log(mod(4, 2)); // Resultado da operação: 4 % 2 = 0
+// correto
